@@ -1,0 +1,51 @@
+import { GraduationCap } from "lucide-react"
+
+const Education = () => {
+  return (
+    <section id="education">
+      <div className="max-w-6xl mx-auto px-6">
+        
+        {/* Heading */}
+        <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
+          <GraduationCap className="inline-block mr-3 text-purple-600" size={40} />
+          My <span className="text-purple-600">Education</span>
+        </h2>
+
+        {/* Cards */}
+        <div className="space-y-8">
+          
+          {/* College */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div className="md:flex">
+              <div className="md:w-1/3">
+                <img src="/images/daviet.jpg" alt="DAVIET" className="w-full h-48 md:h-full object-cover" />
+              </div>
+              <div className="md:w-2/3 p-6 flex flex-col justify-center text-center md:text-left">
+                <h3 className="text-2xl font-semibold text-purple-600 mb-2">Bachelor of Engineering in Information Technology</h3>
+                <p className="text-gray-600 mb-2">DAV Institute Of Engineering And Technology Jalandhar</p>
+                <p className="text-green-600 font-semibold text-lg">2020-2024 | Completed</p>
+              </div>
+            </div>
+          </div>
+
+          {/* School */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+            <div className="md:flex">
+              <div className="md:w-1/3">
+                <img src="/images/school.jpg" alt="School" className="w-full h-48 md:h-full object-cover" />
+              </div>
+              <div className="md:w-2/3 p-6 flex flex-col justify-center text-center md:text-left">
+                <h3 className="text-2xl font-semibold text-purple-600 mb-2">Senior Secondary Education</h3>
+                <p className="text-gray-600 mb-2">St. Soldier Divine Public School Jalandhar | CBSE</p>
+                <p className="text-green-600 font-semibold text-lg">2018-2020 | Completed</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Education
