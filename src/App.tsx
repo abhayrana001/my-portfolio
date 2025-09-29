@@ -1,4 +1,5 @@
 import AboutUS from "./components/AboutUS"
+import Contact from "./components/Contact"
 import Education from "./components/Education"
 import Experience from "./components/Experience"
 import Hero from "./components/Hero"
@@ -15,6 +16,7 @@ const App = () => {
         <Skills/>
         <Experience/>
         <Education/>
+        <Contact/>
       </main>
     </>
   )
