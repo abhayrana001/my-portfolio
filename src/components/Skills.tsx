@@ -25,7 +25,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-gradient-to-r from-indigo-100 to-purple-200">
+    <section id="skills" className="py-20 bg-gradient-to-r from-indigo-50 to-purple-100">
       <div className="container mx-auto px-6 max-w-7xl">
         
         {/* Heading */}

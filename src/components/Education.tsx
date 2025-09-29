@@ -3,7 +3,7 @@ import college from '../assets/daviet.jpg'
 import school from '../assets/ssdps.jpg'
 const Education = () => {
   return (
-    <section id="education" className="py-20">
+    <section id="education" className="py-20 bg-gradient-to-r from-pink-50 to-purple-100">
       <div className="max-w-6xl mx-auto px-6">
         
         {/* Heading */}

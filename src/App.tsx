@@ -1,5 +1,6 @@
 import AboutUS from "./components/AboutUS"
 import Education from "./components/Education"
+import Experience from "./components/Experience"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Skills from "./components/Skills"
@@ -12,6 +13,7 @@ const App = () => {
         <Hero/>
         <AboutUS/>
         <Skills/>
+        <Experience/>
         <Education/>
       </main>
     </>

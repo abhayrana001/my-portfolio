@@ -1,7 +1,7 @@
 import { Menu, X } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
-const navItems = ['Home', 'About', 'Skills', 'Projects', 'Education', 'Contact']
+const navItems = ['Home', 'About', 'Skills', 'Experience', 'Education', 'Contact']
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
