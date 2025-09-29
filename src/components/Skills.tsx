@@ -1,27 +1,32 @@
 import { Code } from "lucide-react"
 import { 
+  SiAngular,
+  SiBootstrap,
   SiCss3, SiGit, SiHtml5, SiJavascript, 
   SiMongodb, SiNextdotjs, SiNodedotjs, 
   SiReact, SiRedux, SiTailwindcss 
 } from "react-icons/si"
 
 const skills = [
-  { name: 'HTML5', icon: <SiHtml5 /> },
-  { name: 'CSS3', icon: <SiCss3 /> },
-  { name: 'JavaScript', icon: <SiJavascript /> },
-  { name: 'React.js', icon: <SiReact /> },
-  { name: 'Next.js', icon: <SiNextdotjs /> },
-  { name: 'Redux', icon: <SiRedux /> },
-  { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
-  { name: 'Node.js', icon: <SiNodedotjs /> },
-  { name: 'MongoDB', icon: <SiMongodb /> },
-  { name: 'Git', icon: <SiGit /> },
-]
+  { name: 'HTML5', icon: <SiHtml5 color="#E34F26" /> },       // Orange-Red
+  { name: 'CSS3', icon: <SiCss3 color="#1572B6" /> },         // Blue
+  { name: 'JavaScript', icon: <SiJavascript color="#F7DF1E" /> }, // Yellow
+  { name: 'Bootstrap', icon: <SiBootstrap color="#7952B3" /> },   // Purple
+  { name: 'Tailwind CSS', icon: <SiTailwindcss color="#06B6D4" /> }, // Cyan
+  { name: 'Angular', icon: <SiAngular color="#DD0031" /> },   // Red
+  { name: 'React.js', icon: <SiReact color="#61DAFB" /> },    // Light Blue
+  { name: 'Redux', icon: <SiRedux color="#764ABC" /> },       // Purple
+  { name: 'Next.js', icon: <SiNextdotjs color="#000000" /> }, // Black
+  // { name: 'Node.js', icon: <SiNodedotjs color="#339933" /> },   // Green
+  // { name: 'MongoDB', icon: <SiMongodb color="#47A248" /> },    // Green
+  { name: 'Git', icon: <SiGit color="#F05032" /> },           // Orange
+];
+
 
 const Skills = () => {
   return (
     <section id="skills" className="py-20 bg-gradient-to-r from-indigo-100 to-purple-200">
-      <div className="container mx-auto px-6 max-w-6xl">
+      <div className="container mx-auto px-6 max-w-7xl">
         
         {/* Heading */}
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
@@ -30,12 +35,12 @@ const Skills = () => {
         </h2>
 
         {/* Skills Grid */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
+        <div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
             {skills.map((s, i) => (
               <div 
                 key={i} 
-                className="bg-gray-100 rounded-xl p-6 text-center flex flex-col items-center justify-center shadow-sm hover:shadow-md transition"
+                className="bg-white rounded-2xl p-8 shadow-lg text-center flex flex-col items-center justify-center hover:shadow-md transition"
               >
                 <div className="text-4xl mb-4 text-gray-800">{s.icon}</div>
                 <p className="text-gray-700 font-medium text-lg">{s.name}</p>

@@ -1,8 +1,9 @@
 import { GraduationCap } from "lucide-react"
-
+import college from '../assets/daviet.jpg'
+import school from '../assets/ssdps.jpg'
 const Education = () => {
   return (
-    <section id="education">
+    <section id="education" className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         
         {/* Heading */}
@@ -18,7 +19,7 @@ const Education = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
             <div className="md:flex">
               <div className="md:w-1/3">
-                <img src="/images/daviet.jpg" alt="DAVIET" className="w-full h-48 md:h-full object-cover" />
+                <img src={college} alt="DAVIET" className="w-full h-48 md:h-full object-cover" />
               </div>
               <div className="md:w-2/3 p-6 flex flex-col justify-center text-center md:text-left">
                 <h3 className="text-2xl font-semibold text-purple-600 mb-2">Bachelor of Engineering in Information Technology</h3>
@@ -32,7 +33,7 @@ const Education = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
             <div className="md:flex">
               <div className="md:w-1/3">
-                <img src="/images/school.jpg" alt="School" className="w-full h-48 md:h-full object-cover" />
+                <img src={school} alt="School" className="w-full h-48 md:h-full object-cover" />
               </div>
               <div className="md:w-2/3 p-6 flex flex-col justify-center text-center md:text-left">
                 <h3 className="text-2xl font-semibold text-purple-600 mb-2">Senior Secondary Education</h3>

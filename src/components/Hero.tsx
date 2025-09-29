@@ -3,7 +3,7 @@ import avatar from '../assets/Avatar.jpg'
 const Hero = () => {
     return (
         <section id="home" className="min-h-screen flex items-center pt-24 bg-gradient-to-r from-purple-100 to-pink-50">
-            <div className="container mx-auto px-6 max-w-6xl grid md:grid-cols-2 gap-12 items-center">
+            <div className="container mx-auto px-6 max-w-7xl grid md:grid-cols-2 gap-12 items-center">
 
                 {/* Left Content */}
                 <div className="space-y-6">
@@ -11,7 +11,7 @@ const Hero = () => {
                         Hi There,<br />I'm Abhay <span className="text-purple-600">Rana</span>
                     </h1>
                     <p className="text-xl text-gray-700 font-medium">
-                        Full-Stack Developer | Web Technologies Enthusiast
+                        Frontend Developer | Web Technologies Enthusiast
                     </p>
 
                     {/* CTA Button with theme color */}
