@@ -17,7 +17,7 @@ const AboutUS = () => {
                     
                     {/* Image */}
                     <div className="flex justify-center">
-                        <div className="w-72 h-96 rounded-lg overflow-hidden shadow-xl border-4 border-purple-200">
+                        <div className="w-80 h-96 rounded-lg overflow-hidden shadow-xl border-4 border-purple-200">
                             <img src={mypic} alt="Abhay" className="w-full h-full object-cover" />
                         </div>
                     </div>
@@ -31,7 +31,7 @@ const AboutUS = () => {
                             I specialize in building responsive and efficient web applications using modern technologies such as Angular, React and Next.js.
                         </p>
 
-                        <div className="bg-purple-50  rounded-lg shadow-sm">
+                        <div>
                             <p className="text-gray-700"><span className="text-purple-600 font-semibold">Email:</span> abhayrana0290@gmail.com</p>
                             <p className="text-gray-700"><span className="text-purple-600 font-semibold">Location:</span> Mohali, India</p>
                         </div>
