@@ -25,11 +25,11 @@ const Hero = () => {
 
                     {/* Social Links */}
                     <div className="flex gap-4 pt-8">
-                        <a href="https://github.com/your-github-profile" target="_blank" rel="noreferrer"
+                        <a href="https://github.com/abhayrana001" target="_blank" rel="noreferrer"
                             className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center hover:bg-purple-700">
                             <Github size={20} />
                         </a>
-                        <a href="https://www.linkedin.com/in/abhay-rana-your-profile/" target="_blank" rel="noreferrer"
+                        <a href="https://www.linkedin.com/in/abhay-rana-ar02/" target="_blank" rel="noreferrer"
                             className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center hover:bg-purple-700">
                             <Linkedin size={20} />
                         </a>
@@ -38,7 +38,7 @@ const Hero = () => {
 
                 {/* Right Image */}
                 <div className="flex justify-center">
-                    <div className="w-90 h-90 rounded-full overflow-hidden shadow-2xl border-8 border-purple-400">
+                    <div className="w-72 h-72 mb-4 md:w-90 md:h-90 rounded-full overflow-hidden shadow-2xl border-8 border-purple-400">
                         <img src={avatar} alt="Abhay" className="w-full h-full object-cover" />
                     </div>
                 </div>
