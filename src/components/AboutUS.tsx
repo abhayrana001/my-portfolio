@@ -5,7 +5,7 @@ const AboutUS = () => {
     return (
         <section id="about" className="py-20 bg-white">
             <div className="container mx-auto px-6 max-w-7xl">
-                
+
                 {/* Heading */}
                 <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
                     <User className="inline-block mr-3 text-purple-600" size={40} />
@@ -14,7 +14,7 @@ const AboutUS = () => {
 
                 {/* Content Grid */}
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                    
+
                     {/* Image */}
                     <div className="flex justify-center">
                         <div className="w-80 h-96 rounded-lg overflow-hidden shadow-xl border-4 border-purple-200">
@@ -27,10 +27,10 @@ const AboutUS = () => {
                         <h3 className="text-3xl font-semibold text-gray-800">I'm Abhay</h3>
                         <p className="text-xl text-purple-600 font-semibold">Passionate Front-End Developer</p>
                         <p className="text-lg text-gray-600 leading-relaxed">
-                            I am a dedicated Front-End Developer based in Mohali, India, with a Bachelor's degree in Information Technology from DAVIET Jalandhar.
-                            I specialize in building responsive and efficient web applications using modern technologies such as Angular, React and Next.js.
+                            I am a Front-End Developer from Mohali, India, with a strong foundation in Information Technology.
+                            I build modern, responsive, and scalable web applications using React, Angular, and Next.js,
+                            with a focus on performance and user experience.
                         </p>
-
                         <div>
                             <p className="text-gray-700"><span className="text-purple-600 font-semibold">Email:</span> abhayrana0290@gmail.com</p>
                             <p className="text-gray-700"><span className="text-purple-600 font-semibold">Location:</span> Mohali, India</p>
