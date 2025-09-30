@@ -3,7 +3,7 @@ import {
   SiAngular,
   SiBootstrap,
   SiCss3, SiGit, SiHtml5, SiJavascript, 
-  SiMongodb, SiNextdotjs, SiNodedotjs, 
+  SiNextdotjs, 
   SiReact, SiRedux, SiTailwindcss 
 } from "react-icons/si"
 
@@ -17,8 +17,6 @@ const skills = [
   { name: 'React.js', icon: <SiReact color="#61DAFB" /> },    // Light Blue
   { name: 'Redux', icon: <SiRedux color="#764ABC" /> },       // Purple
   { name: 'Next.js', icon: <SiNextdotjs color="#000000" /> }, // Black
-  // { name: 'Node.js', icon: <SiNodedotjs color="#339933" /> },   // Green
-  // { name: 'MongoDB', icon: <SiMongodb color="#47A248" /> },    // Green
   { name: 'Git', icon: <SiGit color="#F05032" /> },           // Orange
 ];
 
