@@ -5,13 +5,11 @@ const Experience = () => {
     <section id="experience" className="py-20">
       <div className="max-w-6xl mx-auto px-6">
 
-        {/* Heading */}
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
           <Briefcase className="inline-block mr-3 text-purple-600" size={40} />
           My <span className="text-purple-600">Experience</span>
         </h2>
 
-        {/* Cards */}
         <div className="space-y-8">
 
           {/* Stackgeeks */}

@@ -16,7 +16,7 @@ const Contact = () => {
                     {/* Left - Contact Info */}
                     <div className="space-y-6">
                         <p className="text-lg text-gray-700">
-                            I’m always open to discussing new opportunities, collaborations, or just a friendly chat.
+                            I’m always open to discuss new opportunities, collaborations, or just a friendly chat.
                             Feel free to reach out via email, phone, or LinkedIn.
                         </p>
                         <div className="space-y-4">

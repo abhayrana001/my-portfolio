@@ -6,16 +6,13 @@ const Education = () => {
     <section id="education" className="py-20 bg-gradient-to-r from-pink-50 to-purple-100">
       <div className="max-w-6xl mx-auto px-6">
         
-        {/* Heading */}
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
           <GraduationCap className="inline-block mr-3 text-purple-600" size={40} />
           My <span className="text-purple-600">Education</span>
         </h2>
 
-        {/* Cards */}
         <div className="space-y-8">
           
-          {/* College */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
             <div className="md:flex">
               <div className="md:w-1/3">
@@ -29,7 +26,6 @@ const Education = () => {
             </div>
           </div>
 
-          {/* School */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
             <div className="md:flex">
               <div className="md:w-1/3">
